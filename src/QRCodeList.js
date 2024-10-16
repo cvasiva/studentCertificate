@@ -3,7 +3,7 @@ import QRCode from 'qrcode.react';
 
 const QRCodeList = ({ certificates }) => {
   return (
-    <div>
+    <div className='text-center' style={{textAlign:"center"}}>
       <h1>QR Codes for Certificates</h1>
       {certificates.map((cert, index) => (
         <div key={index} style={{ marginBottom: '20px' }}>

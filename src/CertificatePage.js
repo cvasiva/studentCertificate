@@ -10,7 +10,7 @@ const CertificatePage = ({ certificates }) => {
   }
 
   return (
-    <div>
+    <div className='text-center'>
       {/* Display only the image of the selected certificate */}
       <img src={require(`./images/${certificate.imageitem}`)} alt='certificate' style={{ width: "100%" }} />
     </div>
